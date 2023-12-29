@@ -6,14 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dark and Light</title>
     <style>
-        .title{
-            display: inline;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-        }
-        .fa{
-            color: orange;
-            font-size: 40px;
-        }
+      
         .btn{
             position: absolute;
             top: 20%;
@@ -24,12 +17,15 @@
             width: 100px;
             height:30px ;
         }
+        
     </style>
 </head>
 <body>
-    <div class="btn"><button><a href="./dark.html">Next</a></button><br></div>
-    <h1 class="title">Quyoshchani bosing</h1>
-    <i class="fa fa-sun-o" id="icon" onclick="chargeTheme()"></i>
-    <script src="./script.js"></script>
+     <div class="btn"><button><a href="./theme.html">Circle moon</a></button><br></div>
+   
+    <button onclick="changeThemeLight()">ThemeLight</button>
+    <button onclick="changeThemeDark()">ThemeDark</button>
+  
+    <script src="./light.js"></script>
 </body>
 </html>
